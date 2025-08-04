@@ -1,0 +1,17 @@
+/* fonts */
+@font-face { 
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-weight: 400;
+  src: 
+    url(./assets/fonts/AtkinsonHyperlegible-Regular.ttf),
+}
+
+* {
+    color: #000000;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+body {
+    background-color: #FAF6E9;
+}
