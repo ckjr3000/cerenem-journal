@@ -33,9 +33,9 @@
     As you consider these questions, we invite you to explore the projects that
     reflect and celebrate our community of researchers at CeReNeM in 2024.
   </p>
-  <div class="nav">
+  <nav>
     <a href="#">Score Composition Project</a>
     <a href="#">Sound Installation Project</a>
     <a href="#">Improvisation Project</a>
-  </div>
+  </nav>
 </template>
