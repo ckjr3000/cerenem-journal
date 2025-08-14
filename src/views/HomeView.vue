@@ -2,6 +2,7 @@
   <h1>CeReNeM Journal #9</h1>
   <h2>Introduction</h2>
   <p class="subheading">x minute read</p>
+  <AudioPlayer />
   <p>
     Research is often a solitary endeavor, requiring focused study and
     individual reflection. Yet the communities that form within universities
@@ -39,3 +40,11 @@
     <a href="#">Improvisation Project</a>
   </nav>
 </template>
+
+<script>
+import AudioPlayer from "../components/AudioPlayer.vue";
+
+export default {
+  components: { AudioPlayer },
+};
+</script>
