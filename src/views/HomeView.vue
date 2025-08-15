@@ -2,7 +2,7 @@
   <h1>CeReNeM Journal #9</h1>
   <h2>Introduction</h2>
   <p class="subheading">x minute read</p>
-  <AudioPlayer />
+  <AudioPlayer path-to-audio-file="/Soundbetterbass.wav" />
   <p>
     Research is often a solitary endeavor, requiring focused study and
     individual reflection. Yet the communities that form within universities
@@ -41,10 +41,11 @@
   </nav>
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from "vue";
 import AudioPlayer from "../components/AudioPlayer.vue";
 
-export default {
+export default defineComponent({
   components: { AudioPlayer },
-};
+});
 </script>
