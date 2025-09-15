@@ -1,4 +1,5 @@
 <template>
+  <Header />
   <h1>CeReNeM Journal #9</h1>
   <h2>Introduction</h2>
   <p class="subheading">x minute read</p>
@@ -46,9 +47,11 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 // @ts-ignore
-import AudioPlayer from "../components/AudioPlayer.vue";
+import AudioPlayer from "@/components/AudioPlayer.vue";
+// @ts-ignore
+import Header from "@/components/Header.vue";
 
 export default defineComponent({
-  components: { AudioPlayer },
+  components: { AudioPlayer, Header },
 });
 </script>
