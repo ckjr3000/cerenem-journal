@@ -8,7 +8,7 @@
     >
       <span class="thumb"></span>
     </button>
-    <span class="emoji moon">🌙</span>
+    <span class="emoji moon">🌑</span>
   </div>
 </template>
 
@@ -26,7 +26,7 @@ const toggleDarkMode = () => {
 <style scoped>
 .toggle-container {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   align-items: center;
 }
 
@@ -36,13 +36,21 @@ const toggleDarkMode = () => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80px;
-  height: 36px;
+
+  /* responsive sizing */
+  width: 12vw; /* 12% of viewport width */
+  max-width: 60px;
+  min-width: 40px;
+
+  height: 6vw;
+  max-height: 28px;
+  min-height: 20px;
+
   border-radius: 9999px;
   background: #333;
   border: none;
   cursor: pointer;
-  padding: 0 8px;
+  padding: 0 4px;
   transition: background 0.3s ease;
 }
 
@@ -51,7 +59,7 @@ const toggleDarkMode = () => {
 }
 
 .toggle-switch .emoji {
-  font-size: 18px;
+  font-size: clamp(12px, 3vw, 16px); /* scales with screen size */
   pointer-events: none;
   z-index: 1;
   transition: opacity 0.3s ease;
@@ -76,10 +84,10 @@ const toggleDarkMode = () => {
 /* Thumb */
 .toggle-switch .thumb {
   position: absolute;
-  top: 3px;
-  left: 3px;
-  width: 30px;
-  height: 30px;
+  top: 10%;
+  left: 8%;
+  width: 40%;
+  height: 80%;
   background: white;
   border-radius: 50%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -87,6 +95,7 @@ const toggleDarkMode = () => {
 }
 
 .toggle-switch.dark .thumb {
-  transform: translateX(44px);
+  background: black;
+  transform: translateX(100%);
 }
 </style>

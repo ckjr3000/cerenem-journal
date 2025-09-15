@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Toggle Button -->
-    <button @click="toggleMenu" class="menu-btn">☰ Menu</button>
+    <button @click="toggleMenu" class="menu-btn">Site Navigation</button>
 
     <!-- Overlay -->
     <div v-if="isOpen" class="overlay" @click="closeMenu"></div>
@@ -9,13 +9,15 @@
     <!-- Side Menu -->
     <transition name="slide">
       <nav v-if="isOpen" class="side-menu">
-        <button class="close-btn" @click="closeMenu">✕</button>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+        <button class="close-btn" @click="closeMenu">Close</button>
+        <router-link to="/scorecomposition"
+          >Score Composition Project</router-link
+        >
+        <router-link to="/soundinstallation"
+          >Sound Installation Project</router-link
+        >
+        <router-link to="/improvisation">Improvisation Project</router-link>
+        <router-link to="/about">About</router-link>
       </nav>
     </transition>
   </div>
