@@ -1,7 +1,14 @@
 <template>
   <div>
     <!-- Toggle Button -->
-    <button @click="toggleMenu" class="menu-btn">Site Navigation</button>
+    <button @click="toggleMenu" class="menu-btn">
+      <img
+        src="../assets/vectors/left-arrow.svg"
+        alt="menu icon"
+        class="icon"
+      />
+      <span>Site Navigation</span>
+    </button>
 
     <!-- Overlay -->
     <div v-if="isOpen" class="overlay" @click="closeMenu"></div>
@@ -9,7 +16,14 @@
     <!-- Side Menu -->
     <transition name="slide">
       <nav v-if="isOpen" class="side-menu">
-        <button class="close-btn" @click="closeMenu">Close</button>
+        <button class="close-btn" @click="closeMenu">
+          <span>Close</span
+          ><img
+            src="../assets/vectors/right-arrow.svg"
+            alt="menu icon"
+            class="icon"
+          />
+        </button>
         <router-link to="/scorecomposition"
           >Score Composition Project</router-link
         >
@@ -43,17 +57,35 @@ export default {
 </script>
 
 <style scoped>
-.menu-btn {
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-weight: 400;
+  src: url(@assets/fonts/AtkinsonHyperlegible-Regular.ttf);
+}
+
+.menu-btn,
+.close-btn {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  background: #333;
-  color: white;
-  border: none;
+  background: #faf6e9;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem; /* space between icon and text */
+  color: #f40b0b;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 1rem;
+  border: 2px solid #f40b0b;
   padding: 0.5rem 1rem;
   cursor: pointer;
   z-index: 1001;
   border-radius: 4px;
+}
+
+.dark-mode .menu-btn {
+  background-color: black;
+  color: #faf6e9;
 }
 
 .side-menu {
@@ -82,17 +114,6 @@ export default {
   color: white;
   text-decoration: none;
   font-size: 1.1rem;
-}
-
-.close-btn {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  cursor: pointer;
 }
 
 .overlay {
