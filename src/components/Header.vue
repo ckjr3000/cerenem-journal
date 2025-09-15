@@ -1,15 +1,16 @@
 <template>
-  <div class="toggle-container">
-    <button
-      class="toggle-switch"
-      @click="toggleDarkMode"
-      :class="{ dark: isDark }"
-    >
+  <div id="nav-bar">
+    <div class="toggle-container">
       <span class="emoji sun">🌞</span>
+      <button
+        class="toggle-switch"
+        @click="toggleDarkMode"
+        :class="{ dark: isDark }"
+      >
+        <span class="thumb"></span>
+      </button>
       <span class="emoji moon">🌙</span>
-      <span class="thumb"></span>
-    </button>
-
+    </div>
     <button>open nav</button>
   </div>
 </template>
@@ -41,7 +42,7 @@ const toggleDarkMode = () => {
   width: 80px;
   height: 36px;
   border-radius: 9999px;
-  background: #f0f0f0;
+  background: #333;
   border: none;
   cursor: pointer;
   padding: 0 8px;
@@ -49,7 +50,7 @@ const toggleDarkMode = () => {
 }
 
 .toggle-switch.dark {
-  background: #333;
+  background: #f0f0f0;
 }
 
 .toggle-switch .emoji {
