@@ -35,14 +35,17 @@
     reflect and celebrate our community of researchers at CeReNeM in 2024.
   </p>
   <nav>
-    <a href="#">Score Composition Project</a>
-    <a href="#">Sound Installation Project</a>
-    <a href="#">Improvisation Project</a>
+    <router-link to="/scorecomposition">Score Composition Project</router-link>
+    <router-link to="/soundinstallation"
+      >Sound Installation Project</router-link
+    >
+    <router-link to="/improvisation">Improvisation Project</router-link>
   </nav>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+// @ts-ignore
 import AudioPlayer from "../components/AudioPlayer.vue";
 
 export default defineComponent({

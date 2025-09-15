@@ -1,12 +1,10 @@
 <template>
   <div class="player">
-    <!-- Play/Pause -->
     <button @click="togglePlay">
       <span v-if="!isPlaying">▶️</span>
       <span v-else>⏸️</span>
     </button>
 
-    <!-- Progress Bar -->
     <input
       type="range"
       min="0"
@@ -15,7 +13,6 @@
       @input="seekAudio"
     />
 
-    <!-- Time Display -->
     <span>{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
   </div>
 </template>
