@@ -1,12 +1,13 @@
 <template>
   <div id="header">
     <DarkModeToggle />
-    <button>open nav</button>
+    <NavigationMenu />
   </div>
 </template>
 
 <script setup>
 import DarkModeToggle from "./DarkModeToggle.vue";
+import NavigationMenu from "./NavigationMenu.vue";
 </script>
 
 <style scoped>
