@@ -15,7 +15,7 @@
 
     <!-- Side Menu -->
     <transition name="slide">
-      <nav v-if="isOpen" class="side-menu">
+      <div v-if="isOpen" class="side-menu">
         <button class="close-btn" @click="closeMenu">
           <span>Close</span
           ><img
@@ -24,15 +24,17 @@
             class="icon"
           />
         </button>
-        <router-link to="/scorecomposition"
-          >Score Composition Project</router-link
-        >
-        <router-link to="/soundinstallation"
-          >Sound Installation Project</router-link
-        >
-        <router-link to="/improvisation">Improvisation Project</router-link>
-        <router-link to="/about">About</router-link>
-      </nav>
+        <nav>
+          <router-link to="/scorecomposition"
+            >Score Composition Project</router-link
+          >
+          <router-link to="/soundinstallation"
+            >Sound Installation Project</router-link
+          >
+          <router-link to="/improvisation">Improvisation Project</router-link>
+          <router-link to="/about">About</router-link>
+        </nav>
+      </div>
     </transition>
   </div>
 </template>
@@ -92,26 +94,23 @@ export default {
   position: fixed;
   top: 0;
   right: 0;
-  width: 260px;
+  width: 20vw;
   height: 100vh;
-  background: #222;
-  color: white;
+  background: #faf6e9;
   padding: 2rem 1rem;
   box-shadow: -2px 0 8px rgba(0, 0, 0, 0.4);
   z-index: 1002;
 }
 
-.side-menu ul {
-  list-style: none;
-  padding: 0;
-}
-
-.side-menu li {
-  margin: 1rem 0;
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  gap: 5vh;
 }
 
 .side-menu a {
-  color: white;
+  color: #f40b0b;
   text-decoration: none;
   font-size: 1.1rem;
 }
