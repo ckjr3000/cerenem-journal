@@ -1,7 +1,12 @@
 <template>
   <div class="player">
     <button @click="togglePlay">
-      <span v-if="!isPlaying">▶️</span>
+      <img
+        v-if="!isPlaying"
+        src="../assets/vectors/play-btn.svg"
+        alt="menu icon"
+        class="icon"
+      />
       <span v-else>⏸️</span>
     </button>
 
@@ -91,5 +96,42 @@ button {
 
 input[type="range"] {
   flex: 1;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  background: black; /* Black progress bar */
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Webkit browsers */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #f40b0b; /* Red thumb */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -5px; /* Center thumb vertically */
+}
+
+/* Firefox */
+input[type="range"]::-moz-range-thumb {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #f40b0b;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Firefox track */
+input[type="range"]::-moz-range-track {
+  background: black;
+  height: 6px;
+  border-radius: 3px;
 }
 </style>
