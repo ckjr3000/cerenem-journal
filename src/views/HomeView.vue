@@ -10,6 +10,7 @@
       <h1>CeReNeM Journal #9</h1>
       <h2>Introduction</h2>
       <p class="subheading">x minute read</p>
+      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <AudioPlayer src="/Soundbetterbass.wav" />
       <p>
         Research is often a solitary endeavor, requiring focused study and
@@ -46,6 +47,7 @@
       </p>
     </div>
     <div id="right">
+      <img src="../assets/vectors/landmark-right.svg" alt="" class="landmark" />
       <nav>
         <router-link to="/scorecomposition"
           >Score Composition Project</router-link
@@ -81,6 +83,12 @@ main {
 
 #left {
   width: 45vw;
+}
+
+#right {
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
 }
 
 nav {
