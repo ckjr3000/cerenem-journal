@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="743" height="696" fill="none" viewBox="0 0 743 696">
+<svg xmlns="http://www.w3.org/2000/svg" width="735" height="735" fill="none" viewBox="0 0 735 735">
   <g filter="url(#a)">
-    <circle cx="624.5" cy="71.5" r="524.5" fill="#0BF4A2" fill-opacity=".26"/>
+    <circle cx="367.5" cy="367.5" r="267.5" fill="#0BF4A2" fill-opacity=".26"/>
   </g>
   <defs>
-    <filter id="a" width="1249" height="1249" x="0" y="-553" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+    <filter id="a" width="735" height="735" x="0" y="0" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
       <feTurbulence baseFrequency="0.060240961611270905 0.060240961611270905" numOctaves="3" seed="9300" type="fractalNoise"/>
       <feDisplacementMap width="100%" height="100%" in="shape" result="displacedImage" scale="200" xChannelSelector="R" yChannelSelector="G"/>
-      <feMerge result="effect1_texture_42_202">
+      <feMerge result="effect1_texture_97_356">
         <feMergeNode in="displacedImage"/>
       </feMerge>
     </filter>

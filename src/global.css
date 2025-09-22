@@ -62,3 +62,14 @@ a {
   font-size: 0.9rem;
   color: #685555;
 }
+
+.page-decoration {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vw;
+  transform: translate(50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+}
