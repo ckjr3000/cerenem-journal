@@ -1,4 +1,5 @@
 <template>
+  <Header />
   <h1>Score Composition Project</h1>
   <h2>Page Contents</h2>
 
@@ -84,11 +85,11 @@
     </p>
     <h3>The Score (click through)</h3>
     <!-- slider component -->
-    <figure>tbc</figure>
+    <!-- <figure>tbc</figure>
     <figcaption>Example 1</figcaption>
 
     <figure>tbc</figure>
-    <figcaption>Example 2</figcaption>
+    <figcaption>Example 2</figcaption> -->
 
     <h3>Rythm</h3>
     <p>
@@ -217,7 +218,8 @@
     <p>Score to glitches to musicians.</p>
     <h3>The Tool</h3>
     <!-- some kind of embed of the tool -->
-    <figcaption>My instrument</figcaption>
+    <!-- <figure></figure>
+    <figcaption>My instrument</figcaption> -->
     <p>
       The way this works is that I ran each step in Tom's text score through a
       text to speech program. Producing and mp3 of each step in a different
@@ -424,3 +426,14 @@
     </div>
   </section>
 </template>
+
+<script>
+import { defineComponent } from "vue";
+
+// @ts-ignore
+import Header from "@/components/Header.vue";
+
+export default defineComponent({
+  components: { Header },
+});
+</script>
