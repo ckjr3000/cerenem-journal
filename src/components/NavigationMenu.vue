@@ -2,11 +2,18 @@
   <div>
     <!-- Toggle Button -->
     <button @click="toggleMenu" class="menu-btn">
-      <img
-        src="../assets/vectors/left-arrow.svg"
-        alt="menu icon"
-        class="icon"
-      />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="47"
+        height="16"
+        fill="none"
+        viewBox="0 0 47 16"
+      >
+        <path
+          fill="currentColor"
+          d="M.293 7.293a1 1 0 0 0 0 1.414l6.364 6.364a1 1 0 0 0 1.414-1.414L2.414 8l5.657-5.657A1 1 0 0 0 6.657.93L.293 7.293ZM47 8V7H1v2h46V8Z"
+        />
+      </svg>
       <span>Site Navigation</span>
     </button>
 
@@ -16,13 +23,20 @@
     <!-- Side Menu -->
     <transition name="slide">
       <div v-if="isOpen" class="side-menu">
-        <button class="close-btn" @click="closeMenu">
+        <button class="menu-btn" @click="closeMenu">
           <span>Close</span
-          ><img
-            src="../assets/vectors/right-arrow.svg"
-            alt="menu icon"
-            class="icon"
-          />
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="47"
+            height="16"
+            fill="none"
+            viewBox="0 0 47 16"
+          >
+            <path
+              fill="currentColor"
+              d="M46.707 7.293a1 1 0 0 1 0 1.414l-6.364 6.364a1 1 0 0 1-1.414-1.414L44.586 8l-5.657-5.657A1 1 0 0 1 40.343.93l6.364 6.364ZM0 8V7h46v2H0V8Z"
+            />
+          </svg>
         </button>
         <nav>
           <router-link to="/scorecomposition"
@@ -66,15 +80,14 @@ export default {
   src: url(@assets/fonts/AtkinsonHyperlegible-Regular.ttf);
 }
 
-.menu-btn,
-.close-btn {
+.menu-btn {
   position: fixed;
   top: 1rem;
   right: 1rem;
   background: #faf6e9;
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem; /* space between icon and text */
+  gap: 0.5rem;
   color: #f40b0b;
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 1rem;
@@ -83,6 +96,18 @@ export default {
   cursor: pointer;
   z-index: 1001;
   border-radius: 4px;
+
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu-btn:hover {
+  color: #faf6e9;
+  background: #f40b0b;
+  border-color: #f40b0b;
+
+  /* subtle scale effect */
+  transform: translateY(-2px);
 }
 
 .dark-mode .menu-btn {
