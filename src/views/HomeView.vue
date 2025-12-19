@@ -5,9 +5,11 @@
     <div id="left">
       <h1>CeReNeM Journal #10</h1>
       <h2>Introduction</h2>
-      <p class="subheading">x minute read</p>
+      <p class="subheading">Listen to text</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <AudioPlayer src="jingle-jangles.mp3" />
+      <AudioPlayer src="text-audio/introduction.mp3" />
+      <p class="subheading">Or read (1 minute)</p>
+      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>
         Research is often a solitary endeavor, requiring focused study and
         individual reflection. Yet the communities that form within universities
