@@ -90,6 +90,7 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   gap: 1rem;
+  width: 100%;
 }
 
 button {

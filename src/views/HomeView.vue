@@ -83,6 +83,9 @@ main {
 
 #left {
   width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #right {
