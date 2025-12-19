@@ -3,7 +3,7 @@
   <h1>sound</h1>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from "vue";
 
 // @ts-ignore
