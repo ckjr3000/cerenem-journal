@@ -4,10 +4,15 @@
       <img
         v-if="!isPlaying"
         src="../assets/vectors/play-btn.svg"
-        alt="menu icon"
+        alt="play audio"
         class="icon"
       />
-      <span v-else>⏸️</span>
+      <img
+        v-else
+        src="../assets/vectors/pause-btn.svg"
+        alt="pause audio"
+        class="icon"
+      />
     </button>
 
     <input
@@ -92,6 +97,11 @@ button {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
 }
 
 input[type="range"] {
