@@ -160,4 +160,35 @@ nav {
 .slide-leave-to {
   transform: translateX(100%);
 }
+
+@media (max-width: 1225px) {
+  .side-menu {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .side-menu {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .side-menu {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 440px) {
+  .side-menu {
+    width: 92vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .menu-btn {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+  }
+}
 </style>
