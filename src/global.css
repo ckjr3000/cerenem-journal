@@ -73,3 +73,7 @@ a {
   z-index: -1;
   pointer-events: none;
 }
+
+.landmark {
+  max-width: 30px;
+}

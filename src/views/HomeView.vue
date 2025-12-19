@@ -1,11 +1,7 @@
 <template>
   <Header />
+  <img src="../assets/vectors/page-accent.svg" alt="" class="page-decoration" />
   <main>
-    <img
-      src="../assets/vectors/page-accent.svg"
-      alt=""
-      class="page-decoration"
-    />
     <div id="left">
       <h1>CeReNeM Journal #10</h1>
       <h2>Introduction</h2>
@@ -99,5 +95,20 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+
+@media (max-width: 1060px) {
+  main {
+    flex-direction: column;
+  }
+
+  #left,
+  #right {
+    width: 80%;
+  }
+
+  #right > nav {
+    margin: 0;
+  }
 }
 </style>
