@@ -145,4 +145,9 @@ input[type="range"]::-moz-range-track {
   height: 6px;
   border-radius: 3px;
 }
+
+.dark-mode input[type="range"],
+input[type="range"]::-moz-range-track {
+  background: white;
+}
 </style>
