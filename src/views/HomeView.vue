@@ -11,7 +11,7 @@
       <h2>Introduction</h2>
       <p class="subheading">x minute read</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <AudioPlayer src="src\assets\audio\jingle-jangles.mp3" />
+      <AudioPlayer src="jingle-jangles.mp3" />
       <p>
         Research is often a solitary endeavor, requiring focused study and
         individual reflection. Yet the communities that form within universities
