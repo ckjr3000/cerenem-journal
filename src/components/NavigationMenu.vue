@@ -141,6 +141,14 @@ nav {
   font-size: 1.1rem;
 }
 
+.dark-mode .side-menu {
+  background: rgb(32, 32, 32);
+}
+
+.dark-mode .side-menu a {
+  color: white;
+}
+
 .overlay {
   position: fixed;
   top: 0;
