@@ -7,7 +7,7 @@
       class="page-decoration"
     />
     <div id="left">
-      <h1>CeReNeM Journal #9</h1>
+      <h1>CeReNeM Journal #10</h1>
       <h2>Introduction</h2>
       <p class="subheading">x minute read</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
