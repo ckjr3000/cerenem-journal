@@ -1,0 +1,1 @@
+import{H as t}from"./Header-CnbjAXRj.js";import{d as n,_ as r,c as s,a,b as c,r as p,F as d,o as m}from"./index-DuQxRGfC.js";const i=n({components:{Header:t}});function l(_,e,f,u,H,$){const o=p("Header");return m(),s(d,null,[a(o),e[0]||(e[0]=c("h1",null,"contributors",-1))],64)}const B=r(i,[["render",l]]);export{B as default};

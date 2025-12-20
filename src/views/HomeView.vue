@@ -3,7 +3,7 @@
   <img src="../assets/vectors/page-accent.svg" alt="" class="page-decoration" />
   <main>
     <div id="left">
-      <h1>CeReNeM Journal #10</h1>
+      <h1>CeReNeM Journal #9</h1>
       <h2>Introduction</h2>
       <p class="subheading">Listen to text</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
@@ -43,6 +43,7 @@
         that reflect and celebrate our community of researchers at CeReNeM in
         2024.
       </p>
+      <p><b>Thomas Hawkins and Anthony J. Stillabower</b></p>
     </div>
     <div id="right">
       <img src="../assets/vectors/landmark-right.svg" alt="" class="landmark" />

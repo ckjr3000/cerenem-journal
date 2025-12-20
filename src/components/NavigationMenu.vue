@@ -47,7 +47,7 @@
             >Sound Installation Project</router-link
           >
           <router-link to="/improvisation">Improvisation Project</router-link>
-          <router-link to="/about">About</router-link>
+          <router-link to="/contributors">Contributors</router-link>
         </nav>
       </div>
     </transition>
