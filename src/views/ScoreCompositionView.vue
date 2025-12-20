@@ -4,10 +4,9 @@
   <main>
     <h1>Score Composition Project</h1>
     <h2>Page Contents</h2>
-
-    <nav>
-      <a href="#">Listen to performance</a>
+    <nav class="page-nav">
       <a href="#overview">Overview</a>
+      <a href="#">Performance</a>
       <a href="#tom">Tom's writing</a>
       <a href="#charlotte">Charlotte's writing</a>
       <a href="#freya">Freya's writing</a>
@@ -489,30 +488,3 @@ export default defineComponent({
   components: { Header, AudioPlayer },
 });
 </script>
-
-<style scoped>
-main {
-  margin: auto;
-}
-
-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.project-section {
-  width: 60vw;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.spacer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-</style>
