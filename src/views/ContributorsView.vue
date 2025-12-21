@@ -4,6 +4,9 @@
   <main>
     <h1>Journal Contributors</h1>
     <div class="contributor">
+      <img src="/images/contributors.webp" alt="" />
+    </div>
+    <div class="contributor">
       <h2>Jo Christman</h2>
       <p>
         - Explorations of hybridity and boundary through noisy electronics.
@@ -100,6 +103,9 @@ export default defineComponent({
 </script>
 
 <style>
+img {
+  max-width: 40vw;
+}
 .contributor {
   width: 60vw;
   margin: auto;

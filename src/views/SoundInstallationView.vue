@@ -3,7 +3,7 @@
   <img src="../assets/vectors/page-accent.svg" alt="" class="page-decoration" />
   <h1>The Installation Project</h1>
   <h2>Page Contents</h2>
-  <nav>
+  <nav class="page-nav">
     <a href="#overview">Overview</a>
     <a href="#film">Film</a>
     <a href="#anthony">Anthony's writing</a>
