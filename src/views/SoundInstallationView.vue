@@ -50,6 +50,16 @@
   </div>
   <div class="project-section" id="film">
     <h2>Watch the film</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/1B2Y0nJkdjQ?si=DPEV-akxRBiDNFeJ"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
     <div class="spacer">
       <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
       <a href="#">Back to contents</a>

@@ -57,6 +57,19 @@
       </div>
     </section>
 
+    <section class="project-section" id="performance">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/pSpglt1hmAU?si=r7gJl755vjcynG8Q"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+
     <section class="project-section" id="tom">
       <h2>Tom: The Composition Process</h2>
       <p class="subheading">Listen to text</p>
@@ -579,7 +592,10 @@
 
     <section class="project-section" id="immersive">
       <h2>Freya's Immersive Experience</h2>
-      <a href="#">Download</a>
+      <a
+        href="https://drive.google.com/drive/folders/1ukeD_kRjbxoUDDz3NEhHSRKR8KbFV20f"
+        >Download Freya's app</a
+      >
 
       <div class="instructions">
         <h3>Navigational Instructions</h3>

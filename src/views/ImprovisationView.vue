@@ -30,7 +30,16 @@
     </div>
     <div class="project-section" id="performance">
       <h2>Performance</h2>
-      <!-- content -->
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/8QivTe--WD4?si=zJ9I8bsSJ9Jo80T2"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
     </div>
     <div class="project-section" id="reflections">
       <h2>Reflections</h2>
