@@ -95,23 +95,163 @@
         composing this score, I worked with two main musical parameters: rhythm
         and timbre.   
       </p>
-      <h3>The Score (click through)</h3>
-      <!-- slider component -->
-      <!-- <figure>tbc</figure>
-    <figcaption>Example 1</figcaption>
-
-    <figure>tbc</figure>
-    <figcaption>Example 2</figcaption> -->
+      <h3>The Score</h3>
+      <table>
+        <tbody>
+          <tr>
+            <th>Freya</th>
+            <th>Tom</th>
+          </tr>
+          <tr>
+            <td>
+              Pick up the spoon and fork on your right. Hit them together making
+              the quietest sound possible, playing slow and well defined
+              triplets.
+            </td>
+            <td>
+              Pick up the spoon and fork on your right. Hit them together making
+              the quietest sound possible, playing fast and well defined
+              triplets.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Start to speed up your triplets keeping the dynamic very quiet.
+            </td>
+            <td>
+              Start to slow down your triplets keeping the dynamic very quiet,
+              you may play two notes randomly loud.
+            </td>
+          </tr>
+          <tr>
+            <td>Make them suddenly really loud</td>
+            <td>Make them suddenly really loud</td>
+          </tr>
+          <tr>
+            <td>The triplets should now be really loud and fast</td>
+            <td>The triplets should now be really loud and slow</td>
+          </tr>
+          <tr>
+            <td>
+              Stop! Put the fork and spoon down to your right. Pick up the
+              shaker on your left.
+            </td>
+            <td>Stop! Put the fork and spoon down to your right.</td>
+          </tr>
+          <tr>
+            <td>
+              Pick up the cello bow in front of you and slowly bow your shaker
+              with lots of pressure.
+            </td>
+            <td>
+              Pick up the rain shaker to the left of you, and tip it as slowly
+              as possible.
+            </td>
+          </tr>
+          <tr>
+            <td>Continue with slow bows, keeping the pressure.</td>
+            <td>Tip the shaker faster.</td>
+          </tr>
+          <tr>
+            <td>
+              Speed up the bows, exploring different amounts of bow pressure.
+            </td>
+            <td>Put the shaker down to your left.</td>
+          </tr>
+          <tr>
+            <td>Slow down the bow speed with lots of pressure.</td>
+            <td>
+              Pick up the spoon and fork and play the slow quavers from before
+              as loud as possible.
+            </td>
+          </tr>
+          <tr>
+            <td>Put the bow down in front of you.</td>
+            <td>
+              Put the fork down to your right and pick up the bow in front of
+              you and shaker to your left.
+            </td>
+          </tr>
+          <tr>
+            <td>Put the shaker down to your left.</td>
+            <td>Bow the shaker with slow bows using lots of pressure.</td>
+          </tr>
+          <tr>
+            <td>
+              Pick up the rain shaker to the left of you, and tip it as slowly
+              as possible.
+            </td>
+            <td>Keep turning the shaker, changing the speed each time.</td>
+          </tr>
+          <tr>
+            <td>
+              Pick up the spoon and fork on your right. Hit them together
+              randomly playing as loudly as possible. Do not make more than 5
+              sounds.
+            </td>
+            <td>
+              Pick up the spoon and fork on your right. Hit them together making
+              the loudest sound possible, playing slow and well defined
+              triplets.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Pick up the spoon and fork on your right. Hit them together making
+              the loudest sound possible, playing slow and well defined
+              triplets.
+            </td>
+            <td>
+              Begin tipping the shaker at a fast pace. You may not be heard at
+              this point, bit persevere with it.
+            </td>
+          </tr>
+          <tr>
+            <td>Stop! The End.</td>
+            <td>Stop! The End.</td>
+          </tr>
+        </tbody>
+      </table>
 
       <h3>Rythm</h3>
       <p>
         I began by considering two rhythmic ideas working simultaneously, as
         shown in example 1.   
       </p>
+      <table>
+        <tbody>
+          <tr>
+            <th>Freya</th>
+            <th>Tom</th>
+          </tr>
+          <tr>
+            <td>
+              Pick up the spoon and fork on your right. Hit them together making
+              the quietest sound possible, playing slow and well defined
+              triplets.
+            </td>
+            <td>
+              Pick up the spoon and fork on your right. Hit them together making
+              the quietest sound possible, playing fast and well defined
+              triplets.
+            </td>
+          </tr>
+        </tbody>
+        <caption>
+          Example 1. Audio score (2024)
+        </caption>
+      </table>
       <p>
         This musical idea can also be written using more traditional notation,
         as shown in example 2 .
       </p>
+      <figure>
+        <img src="/images/tom-example-2.jpeg" alt="" />
+      </figure>
+      <figcaption>
+        Example 2. Same musical idea from example 1, written using traditional
+        notation.
+      </figcaption>
       <p>
         Below is a comparison of the audio playback from the notation software
         and what was performed in the concert using the audio score.   
@@ -239,9 +379,10 @@
       </p>
       <p>Score to glitches to musicians.</p>
       <h3>The Tool</h3>
-      <!-- some kind of embed of the tool -->
-      <!-- <figure></figure>
-    <figcaption>My instrument</figcaption> -->
+      <figure>
+        <img src="/images/text-score-glitcher.jpeg" alt="" />
+      </figure>
+      <figcaption>My instrument</figcaption>
       <p>
         The way this works is that I ran each step in Tom's text score through a
         text to speech program. Producing and mp3 of each step in a different
@@ -400,7 +541,36 @@
         sounds bouncing between two speakers, creating a back-and-forth effect
         for the listener situated between them.  
       </p>
-      <!-- code block component -->
+      <code>
+        settingsname = gameSettings <br />
+        projectname = CeReNeMAudioExperience <br />
+        startsoundscape = welcome <br />
+        save = click.mp3 quit = click.mp3 end <br />
+        graphicsname = Screen <br />
+        splashfile = start_image.jpg end <br />
+        menublock = mainGame <br />
+        nogame = nogame.mp3 <br />
+        start = start.mp3 <br />
+        continue = continue.mp3 <br />
+        cancel = cancel.mp3 <br />
+        click = click.mp3 <br />
+        menubackground = menubackground.mp3 <br />
+        end soundscape = welcome <br />
+        background = aircon.mp3 <br />
+        move = step1.mp3, step2.mp3, step3.mp3, step4.mp3, step5.mp3, step6.mp3,
+        step7.mp3, step8.mp3 <br />
+        sound = ASCharlotte1.mp3 (-40, -35) loops = 0 <br />
+        sound = ASCharlotte2.mp3 (40, -34) loops = 0 <br />
+        sound = ASFreya.mp3 (25, -30) loops = 0 <br />
+        sound = ASTom.mp3 (-25, -34) loops = 0 <br />
+        sound = Charlotteimprov1.mp3 (-34, -25) loops = 0 <br />
+        sound = Charlotteimprov2.mp3 (34, -26) loops = 0 <br />
+        sound = Freyaimprov.mp3 (35, -2) loops = 0 <br />
+        sound = Joeimprov.mp3 (-25, 30) loops = 0 <br />
+        sound = Anthonyimprov.mp3 (-15, 30) loops = 0 <br />
+        sound = Tomimprov.mp3 (-35, 10) loops = 0 <br />
+        size = 50 nextsoundscape = None end
+      </code>
       <div class="spacer">
         <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
         <a href="#">Back to contents</a>
@@ -416,7 +586,6 @@
         <p class="subheading">Listen:</p>
         <!-- audio component -->
         <p class="subheading">Or read:</p>
-        <!-- make this collapsable? -->
         <p>
           Upon launching the CeReNeM Interactive Audio Experience application,
           the user is greeted by one of the TTS voices, heard in the Audio
@@ -451,22 +620,6 @@
         </p>
       </div>
 
-      <div class="instructions">
-        <h3>Installtion Instructions</h3>
-        <p class="subheading">Listen to text</p>
-        <img
-          src="../assets/vectors/landmark-down.svg"
-          alt=""
-          class="landmark"
-        />
-        <AudioPlayer src="text-audio/introduction.mp3" />
-        <p class="subheading">Or read (1 minute)</p>
-        <img
-          src="../assets/vectors/landmark-down.svg"
-          alt=""
-          class="landmark"
-        />
-      </div>
       <div class="spacer">
         <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
         <a href="#">Back to contents</a>
@@ -488,3 +641,32 @@ export default defineComponent({
   components: { Header, AudioPlayer },
 });
 </script>
+
+<style>
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #f40b0b;
+}
+
+td {
+  padding: 10px 5px;
+}
+
+caption,
+figcaption {
+  font-style: italic;
+}
+
+code {
+  color: white;
+  background-color: rgb(44, 44, 44);
+  padding: 15px 30px;
+  width: 30vw;
+  margin-bottom: 20px;
+}
+</style>
