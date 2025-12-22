@@ -16,7 +16,7 @@
     <h2>Overview</h2>
     <p class="subheading">Listen to text</p>
     <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-    <AudioPlayer src="text-audio/introduction.mp3" />
+    <AudioPlayer src="text-audio/installation-overview.mp3" />
     <p class="subheading">Or read (1 minute)</p>
     <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
     <p>

@@ -17,7 +17,7 @@
       <h2>Project Overview</h2>
       <p class="subheading">Listen to text</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <AudioPlayer src="text-audio/introduction.mp3" />
+      <AudioPlayer src="text-audio/composition-overview.mp3" />
       <p class="subheading">Or read (1 minute)</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>
@@ -72,10 +72,7 @@
 
     <section class="project-section" id="tom">
       <h2>Tom: The Composition Process</h2>
-      <p class="subheading">Listen to text</p>
-      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <AudioPlayer src="text-audio/introduction.mp3" />
-      <p class="subheading">Or read (2 minutes)</p>
+      <p class="subheading">Read (2 minutes)</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>
         The audio score project consisted of a text score, which was run through
@@ -269,14 +266,88 @@
         Below is a comparison of the audio playback from the notation software
         and what was performed in the concert using the audio score.   
       </p>
-      <p>
-        As heard in the examples above, both sound similar to each other,
-        despite very different notational approaches. This was the main aim
-        throughout the piece: communicating complex musical ideas through a
-        different medium.   
-      </p>
-      <!-- audio component -->
-      <!-- audio component -->
+      <iframe
+        width="100%"
+        height="300"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2208462998&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+      ></iframe>
+      <div
+        style="
+          font-size: 10px;
+          color: #cccccc;
+          line-break: anywhere;
+          word-break: normal;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+            Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+          font-weight: 100;
+        "
+      >
+        <a
+          href="https://soundcloud.com/tomhawkinsmusic"
+          title="Tomhawkinsmusic"
+          target="_blank"
+          style="color: #cccccc; text-decoration: none"
+          >Tomhawkinsmusic</a
+        >
+        ·
+        <a
+          href="https://soundcloud.com/tomhawkinsmusic/triplets-musescore"
+          title="Triplets (Musescore)"
+          target="_blank"
+          style="color: #cccccc; text-decoration: none"
+          >Triplets (Musescore)</a
+        >
+      </div>
+      <iframe
+        width="100%"
+        height="300"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2208462710&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+      ></iframe>
+      <div
+        style="
+          font-size: 10px;
+          color: #cccccc;
+          line-break: anywhere;
+          word-break: normal;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+            Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+          font-weight: 100;
+        "
+      >
+        <a
+          href="https://soundcloud.com/tomhawkinsmusic"
+          title="Tomhawkinsmusic"
+          target="_blank"
+          style="color: #cccccc; text-decoration: none"
+          >Tomhawkinsmusic</a
+        >
+        ·
+        <a
+          href="https://soundcloud.com/tomhawkinsmusic/triplets"
+          title="Triplets"
+          target="_blank"
+          style="color: #cccccc; text-decoration: none"
+          >Triplets</a
+        >
+        <p>
+          As heard in the examples above, both sound similar to each other,
+          despite very different notational approaches. This was the main aim
+          throughout the piece: communicating complex musical ideas through a
+          different medium.   
+        </p>
+      </div>
       <h3>Timbre</h3>
       <p>
         As previously mentioned, this project involved the use of found objects
@@ -328,10 +399,7 @@
 
     <section class="project-section" id="charlotte">
       <h2>Charlotte: The Glitching Project</h2>
-      <p class="subheading">Listen to text</p>
-      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <AudioPlayer src="text-audio/introduction.mp3" />
-      <p class="subheading">Or read (2 minutes)</p>
+      <p class="subheading">Read (2 minutes)</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <h3>Something 'political'</h3>
       <p>
@@ -468,10 +536,7 @@
 
     <section class="project-section" id="freya">
       <h2>Freya: The Interactive Experience</h2>
-      <p class="subheading">Listen to text</p>
-      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <AudioPlayer src="text-audio/introduction.mp3" />
-      <p class="subheading">Or read (2 minutes)</p>
+      <p class="subheading">Read (2 minutes)</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>
         My contribution to the project predominately took place post-performance
@@ -599,9 +664,19 @@
 
       <div class="instructions">
         <h3>Navigational Instructions</h3>
-        <p class="subheading">Listen:</p>
-        <!-- audio component -->
-        <p class="subheading">Or read:</p>
+        <p class="subheading">Listen to text</p>
+        <img
+          src="../assets/vectors/landmark-down.svg"
+          alt=""
+          class="landmark"
+        />
+        <AudioPlayer src="text-audio/navigational-instructions.mp3" />
+        <p class="subheading">Or read (1 minute)</p>
+        <img
+          src="../assets/vectors/landmark-down.svg"
+          alt=""
+          class="landmark"
+        />
         <p>
           Upon launching the CeReNeM Interactive Audio Experience application,
           the user is greeted by one of the TTS voices, heard in the Audio

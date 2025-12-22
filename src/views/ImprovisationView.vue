@@ -13,7 +13,7 @@
       <h2>Overview</h2>
       <p class="subheading">Listen to text</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <AudioPlayer src="text-audio/introduction.mp3" />
+      <AudioPlayer src="text-audio/improvisation-overview.mp3" />
       <p class="subheading">Or read (1 minute)</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>
@@ -43,12 +43,12 @@
     </div>
     <div class="project-section" id="reflections">
       <h2>Reflections</h2>
+      <h3>Freya</h3>
       <p class="subheading">Listen to text</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <AudioPlayer src="text-audio/introduction.mp3" />
+      <AudioPlayer src="text-audio/freya-reflection.mp3" />
       <p class="subheading">Or read (1 minute)</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <h3>Freya</h3>
       <p>
         I played a flamenco guitar for my solo improvisation [...] for the most
         part, I avoided traditional flamenco techniques, instead using a cello
@@ -67,6 +67,11 @@
         soundscape.
       </p>
       <h3>Jo</h3>
+      <p class="subheading">Listen to text</p>
+      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
+      <AudioPlayer src="text-audio/jo-reflection.mp3" />
+      <p class="subheading">Or read (1 minute)</p>
+      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>Start with white and add colour</p>
       <p>The space makes the sound</p>
       <br />
@@ -81,6 +86,11 @@
         specifics of the sound aren't always the most important element…
       </p>
       <h3>Sophie</h3>
+      <p class="subheading">Listen to text</p>
+      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
+      <AudioPlayer src="text-audio/sophie-reflection.mp3" />
+      <p class="subheading">Or read (1 minute)</p>
+      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>An interesting experience!</p>
       <p>
         Seijiro Murayama had us taking part in movement exercises that I
@@ -134,6 +144,11 @@
         musical necessity of either instrument.
       </p>
       <h3>Anthony</h3>
+      <p class="subheading">Listen to text</p>
+      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
+      <AudioPlayer src="text-audio/aj-reflection.mp3" />
+      <p class="subheading">Or read (1 minute)</p>
+      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>Improvisation</p>
       <br />
       <p>[My Necessity]</p>
@@ -161,6 +176,8 @@
       <br />
       <p>“Music happens sometimes…”</p>
       <h3>Charlotte</h3>
+      <p class="subheading">Read (2 minutes)</p>
+      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>PART 1: Not a musician</p>
       <p>
         It's strange to write about this now, because it's a sentiment I've left
