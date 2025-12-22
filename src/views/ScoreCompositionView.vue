@@ -59,8 +59,6 @@
 
     <section class="project-section" id="performance">
       <iframe
-        width="560"
-        height="315"
         src="https://www.youtube.com/embed/pSpglt1hmAU?si=r7gJl755vjcynG8Q"
         title="YouTube video player"
         frameborder="0"

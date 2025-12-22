@@ -54,6 +54,11 @@ a {
   text-decoration: underline dotted #f40b0b 11%;
 }
 
+iframe {
+  width: 50vw;
+  height: calc((50vw / 16) * 9);
+}
+
 .dark-mode a {
   color: #faf6e9;
 }
@@ -108,10 +113,6 @@ img {
   .project-section {
     width: 90vw;
   }
-
-  code {
-    width: 100%;
-  }
 }
 
 @media (max-width: 840px) {
@@ -138,6 +139,11 @@ img {
   td,
   li {
     font-size: 0.7rem;
+  }
+
+  iframe {
+    width: 80vw;
+    height: calc((80vw / 16) * 9);
   }
 
   .subheading {
