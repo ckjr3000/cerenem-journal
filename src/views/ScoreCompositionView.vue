@@ -257,11 +257,12 @@
       </p>
       <figure>
         <img src="/images/tom-example-2.jpeg" alt="" />
+        <figcaption>
+          Example 2. Same musical idea from example 1, written using traditional
+          notation.
+        </figcaption>
       </figure>
-      <figcaption>
-        Example 2. Same musical idea from example 1, written using traditional
-        notation.
-      </figcaption>
+
       <p>
         Below is a comparison of the audio playback from the notation software
         and what was performed in the concert using the audio score.   
@@ -274,36 +275,6 @@
         allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2208462998&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
       ></iframe>
-      <div
-        style="
-          font-size: 10px;
-          color: #cccccc;
-          line-break: anywhere;
-          word-break: normal;
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
-            Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
-          font-weight: 100;
-        "
-      >
-        <a
-          href="https://soundcloud.com/tomhawkinsmusic"
-          title="Tomhawkinsmusic"
-          target="_blank"
-          style="color: #cccccc; text-decoration: none"
-          >Tomhawkinsmusic</a
-        >
-        ·
-        <a
-          href="https://soundcloud.com/tomhawkinsmusic/triplets-musescore"
-          title="Triplets (Musescore)"
-          target="_blank"
-          style="color: #cccccc; text-decoration: none"
-          >Triplets (Musescore)</a
-        >
-      </div>
       <iframe
         width="100%"
         height="300"
@@ -312,42 +283,13 @@
         allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2208462710&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
       ></iframe>
-      <div
-        style="
-          font-size: 10px;
-          color: #cccccc;
-          line-break: anywhere;
-          word-break: normal;
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
-            Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
-          font-weight: 100;
-        "
-      >
-        <a
-          href="https://soundcloud.com/tomhawkinsmusic"
-          title="Tomhawkinsmusic"
-          target="_blank"
-          style="color: #cccccc; text-decoration: none"
-          >Tomhawkinsmusic</a
-        >
-        ·
-        <a
-          href="https://soundcloud.com/tomhawkinsmusic/triplets"
-          title="Triplets"
-          target="_blank"
-          style="color: #cccccc; text-decoration: none"
-          >Triplets</a
-        >
-        <p>
-          As heard in the examples above, both sound similar to each other,
-          despite very different notational approaches. This was the main aim
-          throughout the piece: communicating complex musical ideas through a
-          different medium.   
-        </p>
-      </div>
+
+      <p>
+        As heard in the examples above, both sound similar to each other,
+        despite very different notational approaches. This was the main aim
+        throughout the piece: communicating complex musical ideas through a
+        different medium.   
+      </p>
       <h3>Timbre</h3>
       <p>
         As previously mentioned, this project involved the use of found objects
@@ -662,54 +604,43 @@
         >Download Freya's app</a
       >
 
-      <div class="instructions">
-        <h3>Navigational Instructions</h3>
-        <p class="subheading">Listen to text</p>
-        <img
-          src="../assets/vectors/landmark-down.svg"
-          alt=""
-          class="landmark"
-        />
-        <AudioPlayer src="text-audio/navigational-instructions.mp3" />
-        <p class="subheading">Or read (1 minute)</p>
-        <img
-          src="../assets/vectors/landmark-down.svg"
-          alt=""
-          class="landmark"
-        />
-        <p>
-          Upon launching the CeReNeM Interactive Audio Experience application,
-          the user is greeted by one of the TTS voices, heard in the Audio
-          Scores project, providing instructions for navigating the audio
-          experience. These instructions are detailed below.
-        </p>
-        <p>Welcome to the CeReNeM Journal’s interactive audio experience.  </p>
-        <p>
-          You’re currently in the menu screen. Use the up and down arrow keys to
-          navigate through the menu options: and with the space bar,  select
-          Start to begin the experience, Continue to resume from where you left
-          off, or Cancel to exit.  
-        </p>
-        <p>
-          By selecting Start, you will hear a recording of a contemporary music
-          performance taken at the University of Huddersfield for the CeReNeM
-          Journal. This performance features two improvisations.   
-        </p>
-        <p>
-          The first improvisation, titled Audio Scores, involves two performers
-          responding to a third member’s text-to-speech commands as they
-          improvise with a rain shaker, spoon, and cello bow. In the second
-          piece, five musicians improvise with a blend of acoustic and
-          electronic instruments.  
-        </p>
-        <p>
-          This audio experience invites you to explore the original stem files
-          of the performance in a spatial audio environment. During the
-          experience, navigate using the up and down arrow keys to move forward
-          and back, and the left and right arrow keys to turn. Press Q anytime
-          to exit. 
-        </p>
-      </div>
+      <h3>Navigational Instructions</h3>
+      <p class="subheading">Listen to text</p>
+      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
+      <AudioPlayer src="text-audio/navigational-instructions.mp3" />
+      <p class="subheading">Or read (1 minute)</p>
+      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
+      <p>
+        Upon launching the CeReNeM Interactive Audio Experience application, the
+        user is greeted by one of the TTS voices, heard in the Audio Scores
+        project, providing instructions for navigating the audio experience.
+        These instructions are detailed below.
+      </p>
+      <p>Welcome to the CeReNeM Journal’s interactive audio experience.  </p>
+      <p>
+        You’re currently in the menu screen. Use the up and down arrow keys to
+        navigate through the menu options: and with the space bar,  select Start
+        to begin the experience, Continue to resume from where you left off, or
+        Cancel to exit.  
+      </p>
+      <p>
+        By selecting Start, you will hear a recording of a contemporary music
+        performance taken at the University of Huddersfield for the CeReNeM
+        Journal. This performance features two improvisations.   
+      </p>
+      <p>
+        The first improvisation, titled Audio Scores, involves two performers
+        responding to a third member’s text-to-speech commands as they improvise
+        with a rain shaker, spoon, and cello bow. In the second piece, five
+        musicians improvise with a blend of acoustic and electronic
+        instruments.  
+      </p>
+      <p>
+        This audio experience invites you to explore the original stem files of
+        the performance in a spatial audio environment. During the experience,
+        navigate using the up and down arrow keys to move forward and back, and
+        the left and right arrow keys to turn. Press Q anytime to exit. 
+      </p>
 
       <div class="spacer">
         <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
@@ -757,7 +688,7 @@ code {
   color: white;
   background-color: rgb(44, 44, 44);
   padding: 15px 30px;
-  width: 30vw;
+  width: 70%;
   margin-bottom: 20px;
 }
 </style>

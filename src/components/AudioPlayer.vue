@@ -153,4 +153,31 @@ input[type="range"]::-moz-range-track {
 .dark-mode input[type="range"]::-moz-range-track {
   background: white;
 }
+
+@media (max-width: 560px) {
+  .player {
+    gap: 0.5rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Webkit browsers */
+  input[type="range"]::-webkit-slider-thumb {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  /* Firefox */
+  input[type="range"]::-moz-range-thumb {
+    width: 1rem;
+    height: 1rem;
+  }
+}
 </style>

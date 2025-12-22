@@ -3,10 +3,10 @@
   <img src="../assets/vectors/page-accent.svg" alt="" class="page-decoration" />
   <main>
     <h1>Journal Contributors</h1>
-    <div class="contributor">
+    <div class="project-section">
       <img src="/images/contributors.webp" alt="" />
     </div>
-    <div class="contributor">
+    <div class="project-section">
       <h2>Jo Christman</h2>
       <p>
         - Explorations of hybridity and boundary through noisy electronics.
@@ -21,7 +21,7 @@
         >https://flow.page/joechristman</a
       >
     </div>
-    <div class="contributor">
+    <div class="project-section">
       <h2>Tom Hawkins</h2>
       <p>
         is a cellist, composer and workshop leader based in Huddersfield. In
@@ -33,7 +33,7 @@
         dementia.
       </p>
     </div>
-    <div class="contributor">
+    <div class="project-section">
       <h2>Freya Shaw</h2>
       <p>
         is a visually impaired musician, software developer, and founder of
@@ -49,7 +49,7 @@
         for commissions.
       </p>
     </div>
-    <div class="contributor">
+    <div class="project-section">
       <h2>Anthony J. Stillabower</h2>
       <p>
         Anthony J. Stillabower is a composer and improviser. As an improviser he
@@ -59,7 +59,7 @@
         ensembles and electronics.
       </p>
     </div>
-    <div class="contributor">
+    <div class="project-section">
       <h2>Sophie Cooper</h2>
       <p>
         Sophie Cooper is a sound artist who Huddersfield Contemporary Music
@@ -77,7 +77,7 @@
         her supervisor is Monty Adkins
       </p>
     </div>
-    <div class="contributor">
+    <div class="project-section">
       <h2>Charlotte Roe</h2>
       <p>
         Charlotte Roe is an interdisciplinary digital artist based in
@@ -122,5 +122,11 @@ img {
 .contributor h2,
 p {
   display: inline;
+}
+
+@media (max-width: 1000px) {
+  img {
+    max-width: 100%;
+  }
 }
 </style>
