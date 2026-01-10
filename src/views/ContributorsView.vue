@@ -9,7 +9,7 @@
     <div class="project-section">
       <h2>Jo Christman</h2>
       <p>
-        - Explorations of hybridity and boundary through noisy electronics.
+        Jo explores ideas of hybridity and boundary through noisy electronics.
         Their practice encompasses improvisation and live performance,
         installation, and composition. Currently studying an MA by research they
         are hoping to expand understandings of creative and technical practice,
@@ -24,23 +24,23 @@
     <div class="project-section">
       <h2>Tom Hawkins</h2>
       <p>
-        is a cellist, composer and workshop leader based in Huddersfield. In
-        January 2025, he submitted his Masters in composition, which explores
-        fragility and instability with a specific focus on instrument
-        modification and alternative methods of notation. Tom has a passion for
-        making contemporary music more accessible, and teaches workshops to a
-        range of ages from primary school children, to adults suffering with
-        dementia.
+        Tom Hawkins is a cellist, composer and workshop leader based in
+        Huddersfield. In January 2025, he submitted his Masters in composition,
+        which explores fragility and instability with a specific focus on
+        instrument modification and alternative methods of notation. Tom has a
+        passion for making contemporary music more accessible, and teaches
+        workshops to a range of ages from primary school children, to adults
+        suffering with dementia.
       </p>
     </div>
     <div class="project-section">
       <h2>Freya Shaw</h2>
       <p>
-        is a visually impaired musician, software developer, and founder of
-        Immersion Sound Studio (ISS), a young company supported by Innovate UK.
-        ISS is dedicated to developing accessible software for blind and
-        visually impaired (BVI) users. During her Master’s Research in Music
-        Technology at the University of Huddersfield, Freya researched and
+        Freya Shaw is a visually impaired musician, software developer, and
+        founder of Immersion Sound Studio (ISS), a young company supported by
+        Innovate UK. ISS is dedicated to developing accessible software for
+        blind and visually impaired (BVI) users. During her Master’s Research in
+        Music Technology at the University of Huddersfield, Freya researched and
         developed a prototype for the Hodr Engine, a BVI-accessible audio game
         engine. ISS is developing a commercial version of the Hodr Engine,
         scheduled for release in mid-2025. Freya is also a guitarist, composing

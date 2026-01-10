@@ -65,10 +65,7 @@
   </div>
   <div class="project-section" id="anthony">
     <h2>Anthony: Feedback</h2>
-    <p class="subheading">Listen to text</p>
-    <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-    <AudioPlayer src="text-audio/introduction.mp3" />
-    <p class="subheading">Or read (1 minute)</p>
+    <p class="subheading">Read (1 minute)</p>
     <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
     <p>
       For Three Systems: On Hold, I was inspired to explore perceptual alertness
@@ -111,10 +108,7 @@
   </div>
   <div class="project-section" id="sophie">
     <h2>Sophie: waiting</h2>
-    <p class="subheading">Listen to text</p>
-    <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-    <AudioPlayer src="text-audio/introduction.mp3" />
-    <p class="subheading">Or read (1 minute)</p>
+    <p class="subheading">Read (1 minute)</p>
     <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
     <p>
       Three Systems: On Hold is a unique collaborative project and the result of
@@ -295,10 +289,7 @@
   </div>
   <div class="project-section" id="jo">
     <h2>Jo: Interaction</h2>
-    <p class="subheading">Listen to text</p>
-    <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-    <AudioPlayer src="text-audio/introduction.mp3" />
-    <p class="subheading">Or read (1 minute)</p>
+    <p class="subheading">Read (1 minute)</p>
     <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
     <p>
       During development for this project, each one of us had our own angle
@@ -382,10 +373,7 @@
   </div>
   <div class="project-section" id="compositions">
     <h2>The Compositions</h2>
-    <p class="subheading">Listen to text</p>
-    <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-    <AudioPlayer src="text-audio/introduction.mp3" />
-    <p class="subheading">Or read (1 minute)</p>
+    <p class="subheading">Read (1 minute)</p>
     <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
     <h3>Anthony:</h3>
     <p>

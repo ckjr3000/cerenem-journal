@@ -6,7 +6,7 @@
     <h2>Page Contents</h2>
     <nav class="page-nav">
       <a href="#overview">Overview</a>
-      <a href="#">Performance</a>
+      <a href="performance">Performance</a>
       <a href="#tom">Tom's writing</a>
       <a href="#charlotte">Charlotte's writing</a>
       <a href="#freya">Freya's writing</a>

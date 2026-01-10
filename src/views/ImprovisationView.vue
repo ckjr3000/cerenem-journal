@@ -24,8 +24,12 @@
         performance at the CeReNeM Journal Showcase.
       </p>
       <div class="spacer">
-        <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
         <a href="#">Back to contents</a>
+        <img
+          style="padding-left: 30px"
+          src="../assets/vectors/cross-roads-spacer.svg"
+          alt=""
+        />
       </div>
     </div>
     <div class="project-section" id="performance">
@@ -42,10 +46,7 @@
     <div class="project-section" id="reflections">
       <h2>Reflections</h2>
       <h3>Freya</h3>
-      <p class="subheading">Listen to text</p>
-      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <AudioPlayer src="text-audio/freya-reflection.mp3" />
-      <p class="subheading">Or read (1 minute)</p>
+      <p class="subheading">Read (1 minute)</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>
         I played a flamenco guitar for my solo improvisation [...] for the most
@@ -65,10 +66,7 @@
         soundscape.
       </p>
       <h3>Jo</h3>
-      <p class="subheading">Listen to text</p>
-      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <AudioPlayer src="text-audio/jo-reflection.mp3" />
-      <p class="subheading">Or read (1 minute)</p>
+      <p class="subheading">Read (1 minute)</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>Start with white and add colour</p>
       <p>The space makes the sound</p>
@@ -85,9 +83,7 @@
       </p>
       <h3>Sophie</h3>
       <p class="subheading">Listen to text</p>
-      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <AudioPlayer src="text-audio/sophie-reflection.mp3" />
-      <p class="subheading">Or read (1 minute)</p>
+      <p class="subheading">Read (1 minute)</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>An interesting experience!</p>
       <p>
@@ -142,9 +138,6 @@
         musical necessity of either instrument.
       </p>
       <h3>Anthony</h3>
-      <p class="subheading">Listen to text</p>
-      <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
-      <AudioPlayer src="text-audio/aj-reflection.mp3" />
       <p class="subheading">Or read (1 minute)</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>Improvisation</p>
@@ -160,7 +153,9 @@
         <li>Assasin</li>
         <li>Digging</li>
         <li>Event</li>
-        <li style="list-style: none">**Hiding**</li>
+      </ul>
+      <p>**Hiding**</p>
+      <ul>
         <li>Pulse</li>
         <li>Imagination</li>
       </ul>
@@ -317,8 +312,12 @@
       </ul>
       <p></p>
       <div class="spacer">
-        <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
         <a href="#">Back to contents</a>
+        <img
+          style="padding-left: 30px"
+          src="../assets/vectors/cross-roads-spacer.svg"
+          alt=""
+        />
       </div>
     </div>
   </main>
