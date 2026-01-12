@@ -19,6 +19,10 @@
     <AudioPlayer src="text-audio/installation-overview.mp3" />
     <p class="subheading">Or read (1 minute)</p>
     <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
+    <img
+      src="/images/installation-intro.jpeg"
+      alt="A whiteboard with a messy notated diagram on it. Contains some key words: 'attention', 'memory', 'access', 'time', 'sampling'."
+    />
     <p>
       This photo captures the first meeting between us. Scattered across the
       board is a web of arrows, brackets, circles, and lines, linking words in
@@ -44,8 +48,12 @@
       others?
     </p>
     <div class="spacer">
-      <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
       <a href="#">Back to contents</a>
+      <img
+        style="padding-left: 30px"
+        src="../assets/vectors/cross-roads-spacer.svg"
+        alt=""
+      />
     </div>
   </div>
   <div class="project-section" id="film">
@@ -59,8 +67,12 @@
       allowfullscreen
     ></iframe>
     <div class="spacer">
-      <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
       <a href="#">Back to contents</a>
+      <img
+        style="padding-left: 30px"
+        src="../assets/vectors/cross-roads-spacer.svg"
+        alt=""
+      />
     </div>
   </div>
   <div class="project-section" id="anthony">
@@ -102,8 +114,12 @@
       stretching just long enough for the room to shift..
     </p>
     <div class="spacer">
-      <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
       <a href="#">Back to contents</a>
+      <img
+        style="padding-left: 30px"
+        src="../assets/vectors/cross-roads-spacer.svg"
+        alt=""
+      />
     </div>
   </div>
   <div class="project-section" id="sophie">
@@ -199,7 +215,11 @@
       href="https://archive.org/details/the-apology-line-uncut-gems-from-year-zero/"
       >https://archive.org/details/the-apology-line-uncut-gems-from-year-zero/</a
     >
-    <!-- image -->
+    <img
+      style="margin-top: 15px"
+      src="/images/sophie-flyer.jpeg"
+      alt="An old fashioned poster with phone number tabs at the bottom that reads: 'Attention amateurs, professionals, criminals, blue collar, white collar. You have wronged people. It is to people you must apologize, not to the state, not to god. Get your misdeeds off your chest! Call APOLOGY 255-2748. The idea of apology is to provide a way for people to apologize for their wrongs against people without jeopordizing themselves. Apology will automatically tape record your anonymous phone call. Do not identify yourself and call from a pay phone to prevent tracing. Describe in detail what you have done and how you feel about it. When enough statements have been collected they will be played to the public at a time and place to be advertised. Apology is a private experiment. Its sole purpose is to provide a new avenue of communication. It is not associated in any way with police, governmental, religious, or other organization. When you call you will be alone with a tape recorder.'"
+    />
     <p>
       This sound quality was influential for Three Systems: On Hold, despite
       huge amounts of money being spent on the NHS phone system the music you
@@ -283,8 +303,12 @@
       Naturally I recorded the waiting room's static ambience for use later.
     </p>
     <div class="spacer">
-      <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
       <a href="#">Back to contents</a>
+      <img
+        style="padding-left: 30px"
+        src="../assets/vectors/cross-roads-spacer.svg"
+        alt=""
+      />
     </div>
   </div>
   <div class="project-section" id="jo">
@@ -367,8 +391,12 @@
       <li>Frames</li>
     </ul>
     <div class="spacer">
-      <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
       <a href="#">Back to contents</a>
+      <img
+        style="padding-left: 30px"
+        src="../assets/vectors/cross-roads-spacer.svg"
+        alt=""
+      />
     </div>
   </div>
   <div class="project-section" id="compositions">
@@ -377,25 +405,36 @@
     <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
     <h3>Anthony:</h3>
     <p>
-      When composing the accompanying piece, I wanted to take these questions
-      around perception and transition and apply them to different vectors. The
-      boundaries that are straddled are ones of texture more than frequency,
-      with the lack of audience agency being replaced with more durational
-      sounds -- which provide the listener with a transition through
-      acclimatisation to the sound world and encouraging of deeper listening.
-      Nearing the end of the work a stable state can be reached, within this
-      piercing tone. This in some way allows a bed of sound to take over which
-      is then thrown out with the intrusion of space and environment which
-      collapses under its own weight into a similar space as before, but with a
-      new context and direction of experience. THe agency the audience does hold
-      in this is forcing them to approach their listening in different ways over
-      the course of the piece to find buried sounds and spaces in the
-      composition. This deeper listening is firther aided through the depth of
-      sound. At a first listen things might appear to be very static but if care
-      is taken it is evident that the overlapping textures of the composition
-      are allways changing, providing a world of micro movements and shifts in
-      balance.
+      I started these compositions with the intention of exploring the role of
+      presence in listening, using machine learning to shape and filter sound in
+      response to recordings of our installation. Noise I begins with a
+      recording of the installation’s room sound—a moment between the sounding
+      of any of the three systems. This is temporally shaped by Sophie’s
+      documentation of speech from her NHS on-hold recording. Noise II takes the
+      same room recording as its source, but this time it is filtered through Jo
+      documentation of their system — a piece of wood vibrating on a speaker.
+      Using FluCoMa’s non-negative matrix factorization (NMF) algorithm,
+      Sophie’s and Jo’s recordings became spectral templates, dynamically
+      emphasizing or suppressing aspects of the room sound based on the
+      algorithms analysis of the parameters present in the speech and vibrating
+      wood. To compose with these processed materials, I worked with sequencing,
+      layering and spatialization to articulate aspects of my own listening.
     </p>
+    <p>
+      Through this process, I found a meditation on distances — the spaces
+      between — the presence of —
+    </p>
+    <p>Listen to Anthony's composition:</p>
+    <p>Noise I</p>
+    <audio controls>
+      <source src="/audio/noise_I.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+    <p>Noise II</p>
+    <audio controls>
+      <source src="/audio/noise_II.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
     <h3>Jo:</h3>
     <p>
       When composing the accompanying piece, I wanted to take these questions
@@ -408,7 +447,7 @@
       piercing tone. This in some way allows a bed of sound to take over which
       is then thrown out with the intrusion of space and environment which
       collapses under its own weight into a similar space as before, but with a
-      new context and direction of experience. THe agency the audience does hold
+      new context and direction of experience. The agency the audience does hold
       in this is forcing them to approach their listening in different ways over
       the course of the piece to find buried sounds and spaces in the
       composition. This deeper listening is firther aided through the depth of
@@ -417,6 +456,11 @@
       are allways changing, providing a world of micro movements and shifts in
       balance.
     </p>
+    <p>Listen to Jo's composition:</p>
+    <audio controls>
+      <source src="/audio/three_systems_out_of_context.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
     <h3>Sophie:</h3>
     <p>
       Listening back to the recordings from Gallery Frank I was drawn to quieter
@@ -431,9 +475,18 @@
       helped to understand and manage complex emotions while also making sense
       out of a chaotic life experience.
     </p>
+    <p>Listen to Sophie's composition:</p>
+    <audio controls>
+      <source src="/audio/access_ to_care.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
     <div class="spacer">
-      <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
       <a href="#">Back to contents</a>
+      <img
+        style="padding-left: 30px"
+        src="../assets/vectors/cross-roads-spacer.svg"
+        alt=""
+      />
     </div>
   </div>
 </template>

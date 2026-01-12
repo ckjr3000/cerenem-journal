@@ -6,7 +6,7 @@
     <h2>Page Contents</h2>
     <nav class="page-nav">
       <a href="#overview">Overview</a>
-      <a href="performance">Performance</a>
+      <a href="#performance">Performance</a>
       <a href="#tom">Tom's writing</a>
       <a href="#charlotte">Charlotte's writing</a>
       <a href="#freya">Freya's writing</a>
@@ -52,12 +52,17 @@
         one project which allows each of these approaches to be explored.  
       </p>
       <div class="spacer">
-        <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
         <a href="#">Back to contents</a>
+        <img
+          style="padding-left: 30px"
+          src="../assets/vectors/cross-roads-spacer.svg"
+          alt=""
+        />
       </div>
     </section>
 
     <section class="project-section" id="performance">
+      <h3>Performance</h3>
       <iframe
         src="https://www.youtube.com/embed/pSpglt1hmAU?si=r7gJl755vjcynG8Q"
         title="YouTube video player"
@@ -66,6 +71,14 @@
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>
+      <div class="spacer">
+        <a href="#">Back to contents</a>
+        <img
+          style="padding-left: 30px"
+          src="../assets/vectors/cross-roads-spacer.svg"
+          alt=""
+        />
+      </div>
     </section>
 
     <section class="project-section" id="tom">
@@ -254,7 +267,7 @@
         as shown in example 2 .
       </p>
       <figure>
-        <img src="/images/tom-example-2.jpeg" alt="" />
+        <img src="/images/tom-example-2.png" alt="" />
         <figcaption>
           Example 2. Same musical idea from example 1, written using traditional
           notation.
@@ -265,22 +278,18 @@
         Below is a comparison of the audio playback from the notation software
         and what was performed in the concert using the audio score.   
       </p>
-      <iframe
-        width="100%"
-        height="300"
-        scrolling="no"
-        frameborder="no"
-        allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2208462998&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-      ></iframe>
-      <iframe
-        width="100%"
-        height="300"
-        scrolling="no"
-        frameborder="no"
-        allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2208462710&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-      ></iframe>
+
+      <p>Concert:</p>
+      <audio controls>
+        <source src="/audio/triplets.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <p>Notation software:</p>
+      <audio controls>
+        <source src="/audio/triplet_musescore.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
 
       <p>
         As heard in the examples above, both sound similar to each other,
@@ -332,8 +341,12 @@
         performance.   
       </p>
       <div class="spacer">
-        <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
         <a href="#">Back to contents</a>
+        <img
+          style="padding-left: 30px"
+          src="../assets/vectors/cross-roads-spacer.svg"
+          alt=""
+        />
       </div>
     </section>
 
@@ -402,8 +415,9 @@
       <h3>The Tool</h3>
       <figure>
         <img src="/images/text-score-glitcher.jpeg" alt="" />
+        <figcaption>My instrument</figcaption>
       </figure>
-      <figcaption>My instrument</figcaption>
+
       <p>
         The way this works is that I ran each step in Tom's text score through a
         text to speech program. Producing and mp3 of each step in a different
@@ -469,8 +483,12 @@
         everyone else just by taking part. 
       </p>
       <div class="spacer">
-        <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
         <a href="#">Back to contents</a>
+        <img
+          style="padding-left: 30px"
+          src="../assets/vectors/cross-roads-spacer.svg"
+          alt=""
+        />
       </div>
     </section>
 
@@ -590,8 +608,12 @@
         size = 50 nextsoundscape = None end
       </code>
       <div class="spacer">
-        <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
         <a href="#">Back to contents</a>
+        <img
+          style="padding-left: 30px"
+          src="../assets/vectors/cross-roads-spacer.svg"
+          alt=""
+        />
       </div>
     </section>
 
@@ -601,6 +623,45 @@
         href="https://drive.google.com/drive/folders/1ukeD_kRjbxoUDDz3NEhHSRKR8KbFV20f"
         >Download Freya's app</a
       >
+
+      <h3>Installation Instructions</h3>
+      <p class="subheading">Read (1 minute)</p>
+      <p>
+        The CeReNeMAudioExperience.app is exclusive to Macs with Apple silicon,
+        mainly most models released after late 2020.
+      </p>
+      <p><b>To install this application </b></p>
+      <p>
+        Download CeReNeMAudioExperience.app from this website. Open Finder. Open
+        the Downloads folder. Locate CeReNeMAudioExperience.app. The application
+        is likely to have been saved to the Downloads folder, but if it does not
+        appear there, it may have been downloaded to another folder.
+      </p>
+      <p><b>First time opening the application </b></p>
+      <p>
+        In the Downloads folder, select CeReNeMAudioExperience.app, then press
+        Command and O or press Return to try opening it. If the app does not
+        open, you will probably see a warning message such as:
+        "CeReNeMAudioExperience.app cannot be opened because it is from an
+        unidentified developer." or "CeReNeMAudioExperience.app cannot be
+        opened." or a similar message. When this message appears, choose OK. You
+        will need to grant access to allow the app to open in System Settings.
+      </p>
+      <p><b>Allowing the application to open in System Settings </b></p>
+      <p>
+        Open System Settings. On some versions of macOS this may be called
+        System Preferences. In the list on the left, choose Privacy and
+        Security. On the right, scroll down to the Security section near the
+        bottom of the page. You should see a message similar to:
+        "CeReNeMAudioExperience.app was blocked from use because it is not from
+        an identified developer." Next to this message, choose Open Anyway. If
+        another confirmation message appears, choose Open.
+      </p>
+      <p><b>Opening the application after it has been granted access </b></p>
+      <p>
+        Once CeReNeMAudioExperience.app has opened successfully for the first
+        time, you can open it in the same way as any other application. Enjoy!
+      </p>
 
       <h3>Navigational Instructions</h3>
       <p class="subheading">Listen to text</p>
@@ -641,8 +702,12 @@
       </p>
 
       <div class="spacer">
-        <img src="../assets/vectors/cross-roads-spacer.svg" alt="" />
         <a href="#">Back to contents</a>
+        <img
+          style="padding-left: 30px"
+          src="../assets/vectors/cross-roads-spacer.svg"
+          alt=""
+        />
       </div>
     </section>
   </main>

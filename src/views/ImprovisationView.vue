@@ -6,7 +6,7 @@
     <h2>Page Contents</h2>
     <nav class="page-nav">
       <a href="#overview">Overview</a>
-      <a href="#">Performance</a>
+      <a href="#performance">Performance</a>
       <a href="#reflections">Reflections</a>
     </nav>
     <div class="project-section" id="overview">
@@ -42,6 +42,14 @@
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>
+      <div class="spacer">
+        <a href="#">Back to contents</a>
+        <img
+          style="padding-left: 30px"
+          src="../assets/vectors/cross-roads-spacer.svg"
+          alt=""
+        />
+      </div>
     </div>
     <div class="project-section" id="reflections">
       <h2>Reflections</h2>
@@ -82,7 +90,6 @@
         specifics of the sound aren't always the most important element…
       </p>
       <h3>Sophie</h3>
-      <p class="subheading">Listen to text</p>
       <p class="subheading">Read (1 minute)</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>An interesting experience!</p>
@@ -108,37 +115,40 @@
         or just go wild and smash through the walls
       </p>
       <h3>Tom</h3>
-      <p>
-        One of the biggest challenges I face as an improviser and composer is
-        working out what my music is.
-      </p>
-      <p>
-        Prior to the workshop with Seijiro and Jean-Luc, I would have described
-        improvising as a difficult balance between making my music and allowing
-        everyone else’s music space to breathe.
-      </p>
-      <p>
-        The main thing I learnt from this experience was that I can make my own
-        music and at the same time provide space for others to make their music.
-      </p>
-      <p>
-        My music or ‘necessity’ as Seijro put it feels somewhat irrelevant and
-        what now feels significant is when my music occurs
-      </p>
-      <p>
-        I am still full of questions, but these are focused around a positive
-        angle: what can my music become with the company of others? This is
-        something which fills me with optimism about the future of my music.
-      </p>
-      <p>
-        There is no doubt that a synthesiser can make a louder sound than an
-        acoustic cello, but if the aim of the improvisation is not a rise to a
-        climax, then the volume levels of these instruments may not be an issue.
-        Working together can unlock a new music which doesn’t compromise the
-        musical necessity of either instrument.
-      </p>
+      <div id="tom-writing">
+        <p>
+          One of the biggest challenges I face as an improviser and composer is
+          working out what my music is.
+        </p>
+        <p>
+          Prior to the workshop with Seijiro and Jean-Luc, I would have
+          described improvising as a difficult balance between making my music
+          and allowing everyone else’s music space to breathe.
+        </p>
+        <p>
+          The main thing I learnt from this experience was that I can make my
+          own music and at the same time provide space for others to make their
+          music.
+        </p>
+        <p>
+          My music or ‘necessity’ as Seijro put it feels somewhat irrelevant and
+          what now feels significant is when my music occurs
+        </p>
+        <p>
+          I am still full of questions, but these are focused around a positive
+          angle: what can my music become with the company of others? This is
+          something which fills me with optimism about the future of my music.
+        </p>
+        <p>
+          There is no doubt that a synthesiser can make a louder sound than an
+          acoustic cello, but if the aim of the improvisation is not a rise to a
+          climax, then the volume levels of these instruments may not be an
+          issue. Working together can unlock a new music which doesn’t
+          compromise the musical necessity of either instrument.
+        </p>
+      </div>
       <h3>Anthony</h3>
-      <p class="subheading">Or read (1 minute)</p>
+      <p class="subheading">Read (1 minute)</p>
       <img src="../assets/vectors/landmark-down.svg" alt="" class="landmark" />
       <p>Improvisation</p>
       <br />
@@ -329,13 +339,20 @@ import { defineComponent } from "vue";
 // @ts-ignore
 import Header from "@/components/Header.vue";
 
+// @ts-ignore
+import AudioPlayer from "@/components/AudioPlayer.vue";
+
 export default defineComponent({
-  components: { Header },
+  components: { Header, AudioPlayer },
 });
 </script>
 
 <style>
 #reflections > p {
   font-style: italic;
+}
+
+#tom-writing > p {
+  display: block;
 }
 </style>

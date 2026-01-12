@@ -4,7 +4,10 @@
   <main>
     <h1>Journal Contributors</h1>
     <div class="project-section">
-      <img src="/images/contributors.webp" alt="" />
+      <img
+        src="/images/contributors.jpg"
+        alt="Freya, Jo, Tom, Sophie, AJ, and Charlotte sat together in Phipp's Hall."
+      />
     </div>
     <div class="project-section">
       <h2>Jo Christman</h2>

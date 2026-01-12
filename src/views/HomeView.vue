@@ -46,8 +46,19 @@
       <p><b>Thomas Hawkins and Anthony J. Stillabower</b></p>
     </div>
     <div id="right">
-      <img src="../assets/vectors/landmark-right.svg" alt="" class="landmark" />
+      <img
+        id="right-arrow"
+        src="../assets/vectors/landmark-right.svg"
+        alt=""
+        class="landmark"
+      />
       <nav>
+        <img
+          id="down-arrow"
+          src="../assets/vectors/landmark-down.svg"
+          alt=""
+          class="landmark"
+        />
         <router-link to="/scorecomposition"
           >Score Composition Project</router-link
         >
@@ -100,6 +111,10 @@ nav {
   gap: 50px;
 }
 
+#down-arrow {
+  display: none;
+}
+
 @media (max-width: 1060px) {
   main {
     flex-direction: column;
@@ -113,5 +128,14 @@ nav {
   #right > nav {
     margin: 0;
   }
+}
+
+#down-arrow {
+  display: block;
+  align-self: center;
+}
+
+#right-arrow {
+  display: none;
 }
 </style>
