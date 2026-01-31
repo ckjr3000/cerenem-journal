@@ -234,7 +234,7 @@
         </tbody>
       </table>
 
-      <h3>Rythm</h3>
+      <h3>Rhythm</h3>
       <p>
         I began by considering two rhythmic ideas working simultaneously, as
         shown in example 1.   
